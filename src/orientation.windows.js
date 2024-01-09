@@ -150,4 +150,6 @@ export default class Orientation {
     static getAutoRotateState = cb => {
         cb(true); // iOS not implement
     };
+    static init = () => {};
+    static removeInit = () => {};
 }

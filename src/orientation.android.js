@@ -165,4 +165,11 @@ export default class Orientation {
       cb(state);
     });
   };
+
+  static init =()=>{
+    OrientationNative.init()
+  }
+  static removeInit=()=>{
+    OrientationNative.removeInit()
+  }
 }

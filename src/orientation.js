@@ -59,4 +59,7 @@ export default class Orientation {
   static getAutoRotateState = cb => {
     cb(true);
   };
+
+  static init = () => {};
+  static removeInit = () => {};
 }

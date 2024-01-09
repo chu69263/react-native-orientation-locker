@@ -78,6 +78,9 @@ declare class Orientation {
   static getDeviceOrientation(callback: (orientation: OrientationType) => void): void;
 
   static getAutoRotateState(callback: (state: boolean) => void): void;
+
+  static init(): void;
+  static removeInit(): void;
 }
 
 export default Orientation;
